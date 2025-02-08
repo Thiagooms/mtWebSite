@@ -1,0 +1,37 @@
+[
+    {
+      "title": "Boné Classic Preto",
+      "badgeTitle": "QUALIDADE PREMIUM",
+      "lineTitle": "LINHA PREMIUM",
+      "price": 79.90,
+      "image": "https://placehold.co/300x300/000/FFF?text=Boné+Preto"
+    },
+    {
+      "title": "Boné Trucker Azul",
+      "badgeTitle": "QUALIDADE PREMIUM",
+      "lineTitle": "LINHA PREMIUM",
+      "price": 59.90,
+      "image": "https://placehold.co/300x300/2196F3/FFF?text=Boné+Trucker"
+    },
+    {
+      "title": "Boné Snapback Vermelho",
+      "badgeTitle": "QUALIDADE PREMIUM",
+      "lineTitle": "LINHA PREMIUM",
+      "price": 89.90,
+      "image": "https://placehold.co/300x300/F44336/FFF?text=Snapback"
+    },
+    {
+      "title": "Boné Esportivo Cinza",
+      "badgeTitle": "QUALIDADE PREMIUM",
+      "lineTitle": "LINHA PREMIUM",
+      "price": 69.90,
+      "image": "https://placehold.co/300x300/9E9E9E/FFF?text=Boné+Esportivo"
+    },
+    {
+      "title": "Boné Camuflado Militar",
+      "badgeTitle": "QUALIDADE PREMIUM",
+      "lineTitle": "LINHA PREMIUM",
+      "price": 99.90,
+      "image": "https://placehold.co/300x300/4CAF50/FFF?text=Boné+Camuflado"
+    }
+  ]
