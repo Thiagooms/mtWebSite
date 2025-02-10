@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "status": "Em andamento",
+      "description": "O processo está em execução e será concluído em breve."
+    },
+    {
+      "id": 2,
+      "status": "Concluído",
+      "description": "O processo foi finalizado com sucesso."
+    },
+    {
+      "id": 3,
+      "status": "Pendente",
+      "description": "O processo ainda não foi iniciado ou está aguardando uma ação."
+    }
+  ]
+  

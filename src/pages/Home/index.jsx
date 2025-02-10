@@ -6,6 +6,7 @@ import Banner01 from "../../assets/imgs/slider1.png";
 import Banner02 from "../../assets/imgs/slider2.png";
 import { GenericSection } from "../../components/GenericSection";
 import ProductsJSON from "../../mocks/products.json";
+import { StatsSection } from "../../components/StatsSection";
 
 export function Home(){
     
@@ -26,7 +27,7 @@ export function Home(){
             </div>
           ),
           customPaging: () => <div className={styles.dot}></div>,
-      };
+    };
 
     
 
@@ -35,13 +36,18 @@ export function Home(){
             <Header />
 
             <Slider {...settings}>
-                <div onClick={() => navigate("/produto")}>
+                <div onClick={() => navigate("#")}>
                     <img src={Banner01} alt="" />
                 </div>
-                <div onClick={() => navigate("/produto")}>
+                <div onClick={() => navigate("#")}>
                     <img src={Banner02} alt="" />
                 </div>
             </Slider>
+
+            <StatsSection 
+
+            
+            />
 
             <GenericSection title="MAIS VENDIDOS" titleButton="VEJA NOSSOS PRODUTOS" products={ProductsJSON} />
 

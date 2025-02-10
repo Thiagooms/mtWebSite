@@ -15,7 +15,9 @@ export function CardProduct({title, badgeTitle, lineTitle, price, image}){
                 } 
                 alt= {
                     title
-                } />
+                } 
+                
+                />
             </div>
 
             <div className="flex justify-between mt-2.5 mx-5 mb-3 ">
