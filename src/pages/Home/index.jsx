@@ -50,6 +50,10 @@ export function Home(){
 
             <BannerSection />
 
+
+                teste
+
+                
             <GenericSection title="MAIS VENDIDOS" titleButton="VEJA NOSSOS PRODUTOS" products={ProductsJSON} />
 
 
