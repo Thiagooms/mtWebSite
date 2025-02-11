@@ -3,3 +3,19 @@
 html, body {
     font-family: "DM Sans", serif;
 }
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-fadeIn {
+    animation: fadeIn 0.5s ease forwards;
+    opacity: 0; /* Começa invisível até a animação acabar */
+  }

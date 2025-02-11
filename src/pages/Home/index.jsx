@@ -7,6 +7,8 @@ import Banner02 from "../../assets/imgs/slider2.png";
 import { GenericSection } from "../../components/GenericSection";
 import ProductsJSON from "../../mocks/products.json";
 import { StatsSection } from "../../components/StatsSection";
+import { BannerSection } from "../../components/bannerSection";
+
 
 export function Home(){
     
@@ -44,10 +46,9 @@ export function Home(){
                 </div>
             </Slider>
 
-            <StatsSection 
+            <StatsSection />
 
-            
-            />
+            <BannerSection />
 
             <GenericSection title="MAIS VENDIDOS" titleButton="VEJA NOSSOS PRODUTOS" products={ProductsJSON} />
 

@@ -3,7 +3,7 @@ import { CardProduct } from "../CardProduct";
 export function GenericSection({title, titleButton, handleClickButton, products}) {
     return (
 
-        <section className="flex flex-col w-full items-center mb-17 mt-[150px]">
+        <section className="flex flex-col w-full items-center mb-17 mt-24">
             <span className="w-3 h-3 bg-black mb-[5px] rounded-full"></span>
             <h2 className="text-5xl mb-15 font-bold">{title}</h2>
             <div className="flex mx-w-full gap-5 p-2.5">
